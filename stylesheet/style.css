@@ -10,11 +10,22 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+main {
+  height: 100vh;
+}
+
 /* ---- layout ---- */
 
 .site-footer {
   height: 4.25rem;
   background-color: var(--disco);
+}
+
+@media (min-width: 1024px) {
+  .site-footer {
+    height: 3rem;
+
+  }
 }
 
 .footer-languages {
