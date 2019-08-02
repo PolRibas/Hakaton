@@ -17,8 +17,34 @@ html {
       color: blue;
   }
   /* ---- layout ---- */
+  .footer-credits {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: #4a4a4a;
+    line-height: 1;
+  }
   
+  .credits-list {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    font-size: .75rem;
+    line-height: .75;
+    padding: .875rem;
+  }
+  
+  .credits-list-link {
+    cursor: pointer;
+  }
+  
+  .credits-list-link:hover {
+    text-decoration: underline;
+  }
   /* ---- components ---- */
+  
+
   
   /* ---- section ---- */
   
