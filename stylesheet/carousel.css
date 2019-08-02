@@ -9,8 +9,9 @@
   color: black;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1024px) {
   .carousel {
+    margin-top: 3rem;
     padding: 8rem 2.5rem;
     display: flex;
     justify-content: space-between;
@@ -32,25 +33,26 @@
 }
 
 .sale {
-  background-image: url(../public/becca-tapert-uGak0qtrphM-unsplash\ \(1\).jpg);
+  background-image: url(../public/room-FZrn8fhqpp8-unsplash.jpg);
   overflow: hidden;
   background-size: cover;
   background-position: center;
 }
 
 .top-brands {
-  background-image: url(../public/ialicante-mediterranean-homes-FqqiAvJejto-unsplash.jpg);
+  background-image: url(../public/becca-tapert-uGak0qtrphM-unsplash\ \(1\).jpg);
   overflow: hidden;
   background-size: cover;
   background-position: center;
 }
 
 .most-popular {
-  background-image: url(../public/room-FZrn8fhqpp8-unsplash.jpg);
+  background-image: url(../public/ialicante-mediterranean-homes-FqqiAvJejto-unsplash.jpg);
   overflow: hidden;
   background-size: cover;
   background-position: center;
 }
+
 
 .carousel-title {
   margin: 0;
