@@ -1,21 +1,26 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <title>XXXLutz</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="shortcut icon" type="image/x-icon" href="../public/favicon.ico">
-  <link rel="preload" href="../public/" as="font" type="font/woff2" crossorigin="anonymous">
-  <link rel="stylesheet" href="stylesheet/vars.css">
+  <link rel="shortcut icon" type="image/x-icon" href="public/favicon.ico">
+  <!-- <link rel="preload" href="../public/" as="font" type="font/woff2" crossorigin="anonymous"> -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,800,800i&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet/reset.css">
   <link rel="stylesheet" href="stylesheet/style.css">
   <link rel="stylesheet" href="stylesheet/burguer-menu.css">
+  <link rel="stylesheet" href="stylesheet/carousel.css">
 </head>
+
 <body>
   <header>
-      <h1 id="title-burger" class="title-one">XXXLUTZ</h1>
-      <section class="head-bar">
+    <h1 id="title-burger" class="title-one pricipal">XXXLUTZ</h1>
+    <section class="head-bar">
     </section>
-        <h1 id="title-two">XXXLUTZ</h1>
+    <h1 class="pricipal" id="title-two">XXXLUTZ</h1>
     <label>
         <input type='checkbox'>
         <span class='menu'>
@@ -85,17 +90,53 @@
         </label>
   </header>
   <main>
-    <p>hihsdooivh</p>
-    <p>hihsdooivh</p>
-    <p>hihsdooivh</p>
-    <p>hihsdooivh</p>
-    <p>hihsdooivh</p>
-    <p>hihsdooivh </p>
-  </main>
-  <footer>
+    <nav class="category-nav">
+      <ul class="category-list">
+        <li class="category-list-item">
+          <img class="category-icon" src="./public/bytesize-location.svg">
+          <a class="category-link" href="/#">Location</a>
+        </li>
+        <li class="category-list-item">
+          <img class="category-icon" src="./public/ant-design-heart-fill.svg">
+          <a class="category-link" href="/#">Wish List</a>
+        </li>
+        <li class="category-list-item">
+          <img class="category-icon" src="./public/mdi-account-circle.svg">
+          <a class="category-link" href="/#">Account</a>
+        </li>
+        <li class="category-list-item">
+          <img class="category-icon" src="./public/typcn-shopping-cart.svg">
+          <a class="category-link" href="/#">Cart</a>
+        </li>
+      </ul>
+    </nav>
+    <article class="carousel sale">
+      <h3 class="carousel-title">SALE</h3>
+      <img src="./public/ic-round-arrow-back.svg" alt="arrow">
+    </article>
 
+    <article class="carousel top-brands">
+      <h3 class="carousel-title">TOP BRANDS</h3>
+      <img src="./public/ic-round-arrow-back.svg" alt="arrow">
+    </article>
+
+    <article class="carousel most-popular">
+      <h3 class="carousel-title">MOST POPULAR</h3>
+      <img src="./public/ic-round-arrow-back.svg" alt="arrow">
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-languages">
+      <ul class="language-selector">
+        <li><a class="language-link" href="/#">Deusch</a></li>
+        <li><a class="language-link" href="/#">Eng</a></li>
+      </ul>
+    </div>
   </footer>
+
   <script src="javascript/functions.js"></script>
   <script src="javascript/main.js"></script>
 </body>
+
 </html>
