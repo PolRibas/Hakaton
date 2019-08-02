@@ -17,7 +17,7 @@ html {
 }
 
 #title-two{
-    color: #ed87ed;
+    color: var(--disco);
     position: fixed;
     top: 0;
     z-index: 200;
@@ -41,7 +41,7 @@ label .menu {
     z-index: 100;
     width: 180px;
     height: 204px;
-    background: #ed87ed;
+    background: var(--disco);
     border-radius: 0% 0% 0% 0%;
     transition: .5s ease-in-out;
     box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
