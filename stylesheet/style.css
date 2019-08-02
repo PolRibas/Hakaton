@@ -81,7 +81,7 @@
   font-size: .75rem;
   line-height: 1;
   padding: .25rem;
-  border-right: 1px solid var(--dusty-gray);
+  border-right: 1px solid var(--disco);
 }
 
 .category-list-item:last-child {
