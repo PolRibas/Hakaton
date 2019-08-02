@@ -217,12 +217,13 @@ label a {
     background-image: url(../public/Rectangle\ Copy\ 7.jpg);
     background-size: cover;
 }
-<<<<<<< HEAD
-=======
 
 @media (min-width: 768px) {
   .menu {
     display: none;
   }
+  .menu ul, label{
+    display: none; 
+  }
 }
->>>>>>> 05b5b88382b519301e2792711881159c55fd9067
+

@@ -15,5 +15,12 @@ const main = () => {
     sale.addEventListener('click', (event) => {
         
     })
+    const titles = document.querySelectorAll('.main-category-desk')
+    titles.forEach((title) => {
+        title.addEventListener('click', (event)=>{
+            console.log(event)
+            //childs-categories-desk
+        })
+    })
 }
 window.addEventListener('load', main)
