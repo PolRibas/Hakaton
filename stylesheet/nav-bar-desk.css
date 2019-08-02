@@ -18,6 +18,11 @@
   text-align: center;
 }
 
+.nav-desk{
+    font-size: 0.7em;
+    margin-bottom: 0%;
+}
+
 @media (max-width: 1024px) {
   .nav-desk{
     display: none
