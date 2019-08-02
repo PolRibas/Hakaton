@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="20px" height="34px" viewBox="0 0 20 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
     <title>ic-round-arrow-back-ios</title>
     <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Open-Mobile-Homepage" transform="translate(-339.000000, -203.000000)" fill-rule="nonzero">
-            <g id="ic-round-arrow-back-ios" transform="translate(348.000000, 220.000000) scale(-1, 1) translate(-348.000000, -220.000000) translate(327.000000, 199.000000)">
-                <g id="Icon" transform="translate(10.800000, 4.200000)" fill="#FFFEFE">
-                    <path d="M18.285,1.0325 C17.8746063,0.621067559 17.3173693,0.389839696 16.73625,0.389839696 C16.1551307,0.389839696 15.5978937,0.621067559 15.1875,1.0325 L0.645,15.575 C0.317350844,15.901978 0.133222944,16.3458584 0.133222944,16.80875 C0.133222944,17.2716416 0.317350844,17.715522 0.645,18.0425 L15.1875,32.585 C16.045,33.4425 17.4275,33.4425 18.285,32.585 C19.1425,31.7275 19.1425,30.345 18.285,29.4875 L5.615,16.8 L18.3025,4.1125 C19.1425,3.2725 19.1425,1.8725 18.285,1.0325 Z" id="Icon-Path"></path>
-                </g>
-                <rect id="ViewBox" x="0" y="0" width="42" height="42"></rect>
+    <g id="ic-round-arrow-back-ios" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(21.000000, 21.000000) scale(-1, 1) translate(-21.000000, -21.000000) " fill-rule="nonzero">
+            <g id="Icon" transform="translate(10.800000, 4.200000)" fill="#000000">
+                <path d="M18.285,1.0325 C17.8746063,0.621067559 17.3173693,0.389839696 16.73625,0.389839696 C16.1551307,0.389839696 15.5978937,0.621067559 15.1875,1.0325 L0.645,15.575 C0.317350844,15.901978 0.133222944,16.3458584 0.133222944,16.80875 C0.133222944,17.2716416 0.317350844,17.715522 0.645,18.0425 L15.1875,32.585 C16.045,33.4425 17.4275,33.4425 18.285,32.585 C19.1425,31.7275 19.1425,30.345 18.285,29.4875 L5.615,16.8 L18.3025,4.1125 C19.1425,3.2725 19.1425,1.8725 18.285,1.0325 Z" id="Icon-Path"></path>
             </g>
+            <rect id="ViewBox" x="0" y="0" width="42" height="42"></rect>
         </g>
     </g>
 </svg>
