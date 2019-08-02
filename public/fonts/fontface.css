@@ -1,0 +1,180 @@
+/* FONT FACE */
+@font-face {
+	font-family: 'DN Pro Black Italic';
+	src: url('dn_pro_dn_pro_black_italic-webfont.woff2') format('woff2'),
+				url('dn_pro_dn_pro_black_italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DN Pro Black';
+	src: url('dn_pro_dn_pro_black-webfont.woff2') format('woff2'),
+				url('dn_pro_dn_pro_black-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DN Pro Bold Italic';
+	src: url('dn_pro_dn_pro_bold_italic-webfont.woff2') format('woff2'),
+				url('dn_pro_dn_pro_bold_italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DN Pro Bold';
+	src: url('dn_pro_dn_pro_bold-webfont.woff2') format('woff2'),
+				url('dn_pro_dn_pro_bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DN Pro Extra Bold Italic';
+	src: url('dn_pro_dn_pro_extra_bold_italic-webfont.woff2') format('woff2'),
+				url('dn_pro_dn_pro_extra_bold_italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DN Pro Extra Bold';
+	src: url('dn_pro_dn_pro_extra_bold-webfont.woff2') format('woff2'),
+				url('dn_pro_dn_pro_extra_bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DN Pro Extra Light Italic';
+	src: url('dn_pro_dn_pro_extra_light_italic-webfont.woff2') format('woff2'),
+				url('dn_pro_dn_pro_extra_light_italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DN Pro Extra Light';
+	src: url('dn_pro_dn_pro_extra_light-webfont.woff2') format('woff2'),
+				url('dn_pro_dn_pro_extra_light-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DN Pro Italic';
+	src: url('dn_pro_dn_pro_italic-webfont.woff2') format('woff2'),
+				url('dn_pro_dn_pro_italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DN Pro Light Italic';
+	src: url('dn_pro_dn_pro_light_italic-webfont.woff2') format('woff2'),
+				url('dn_pro_dn_pro_light_italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DN Pro Light';
+	src: url('dn_pro_dn_pro_light-webfont.woff2') format('woff2'),
+				url('dn_pro_dn_pro_light-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DN Pro Medium Italic';
+	src: url('dn_pro_dn_pro_medium_italic-webfont.woff2') format('woff2'),
+				url('dn_pro_dn_pro_medium_italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DN Pro Medium';
+	src: url('../fonts/dn_pro_dn_pro_medium-webfont.woff2') format('woff2'),
+				url('../fonts/dn_pro_dn_pro_medium-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DN Pro Regular';
+	src: url('../fonts/dn_pro_dn_pro_regular-webfont.woff2') format('woff2'),
+				url('../fonts/dn_pro_dn_pro_regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DN Pro Semibold Italic';
+	src: url('dn_pro_dn_pro_semi_bold_italic-webfont.woff2') format('woff2'),
+				url('dn_pro_dn_pro_semi_bold_italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DN Pro Semibold';
+	src: url('dn_pro_dn_pro_semi_bold-webfont.woff2') format('woff2'),
+				url('dn_pro_dn_pro_semi_bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DN Pro Thin Italic';
+	src: url('dn_pro_dn_pro_thin_italic-webfont.woff2') format('woff2'),
+				url('dn_pro_dn_pro_thin_italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DN Pro Thin';
+	src: url('dn_pro_dn_pro_thin-webfont.woff2') format('woff2'),
+				url('dn_pro_dn_pro_thin-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: swap;
+}
