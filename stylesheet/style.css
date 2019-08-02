@@ -11,6 +11,12 @@
 }
 
 /* ---- layout ---- */
+
+.site-footer {
+  height: 4.25rem;
+  background-color: var(--disco);
+}
+
 .footer-languages {
   display: flex;
   justify-content: center;
@@ -40,6 +46,12 @@
   text-decoration: underline;
 }
 
+@media (min-width: 1024px) {
+  .footer-languages {
+    display: none;
+  }
+}
+
 /* ---- section ---- */
 .category-nav,
 .category-list {
@@ -53,6 +65,12 @@
 .category-list {
   padding: .625rem 0 1.75rem 0;
   margin-top: 3rem;
+}
+
+@media (min-width: 1024px) {
+  .category-list {
+    display: none;
+  }
 }
 
 .category-list-item {
