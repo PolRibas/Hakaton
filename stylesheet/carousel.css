@@ -5,6 +5,15 @@
   width: 100%;
   margin-bottom: 1.25rem;
   font-size: 1.7rem;
+  font-weight: 600;
+  color: white;
+}
+
+@media (min-width: 700px) {
+  .carousel {
+    padding: 4rem 1rem;
+    border-radius: 1rem;
+  }
 }
 
 .sale {
