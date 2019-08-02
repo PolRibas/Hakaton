@@ -16,7 +16,8 @@ html {
   h1{
       color: blue;
   }
-  /* ---- layout ---- */
+
+   /* ---- layout ---- */
   .footer-credits {
     display: flex;
     justify-content: center;
