@@ -5,14 +5,17 @@
   <title>XXXLutz</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="shortcut icon" type="image/x-icon" href="../public/favicon.ico">
-  <link rel="preload" href="../public/" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/x-icon" href="public/favicon.ico">
+  <!-- <link rel="preload" href="../public/" as="font" type="font/woff2" crossorigin="anonymous"> -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,800,800i&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet/reset.css">
   <link rel="stylesheet" href="stylesheet/style.css">
   <link rel="stylesheet" href="stylesheet/burguer-menu.css">
 </head>
 
 <body>
-  <header>
+  <header class="site-header">
     <label>
       <input type='checkbox'>
       <span class='menu'>
@@ -83,7 +86,26 @@
 
   </header>
   <main>
-
+    <nav class="category-nav">
+      <ul class="category-list">
+        <li class="category-list-item">
+          <img class="category-icon" src="./public/bytesize-location.svg">
+          <a class="category-link" href="/#">Location</a>
+        </li>
+        <li class="category-list-item">
+          <img class="category-icon" src="./public/ant-design-heart-fill.svg">
+          <a class="category-link" href="/#">Wish List</a>
+        </li>
+        <li class="category-list-item">
+          <img class="category-icon" src="./public/mdi-account-circle.svg">
+          <a class="category-link" href="/#">Account</a>
+        </li>
+        <li class="category-list-item">
+          <img class="category-icon" src="./public/typcn-shopping-cart.svg">
+          <a class="category-link" href="/#">Cart</a>
+        </li>
+      </ul>
+    </nav>
 
   </main>
 
@@ -96,7 +118,7 @@
     </div>
   </footer>
 
-  <script src="../javascript/functions.js"></script>
+  <script src="javascript/functions.js"></script>
   <script src="javascript/main.js"></script>
 </body>
 

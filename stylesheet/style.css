@@ -1,80 +1,83 @@
-/* ---- reset ---- */
-
-html {
-    box-sizing: border-box;
-  }
-
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: 'DN Pro Regular';
-    font-size: 1rem;
-  }
-
-  h1,
-  h2, 
-  h3,
-  h4, 
-  p {
-    margin: 0;
-    padding: 0;
-  }
-
-  ul,
-  li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  /* ---- colors ---- */
-  :root {
-  --white: #fff;
-  --lavender-magenta: #ed87ed;
-  --black: #000;
+/* ---- colors ---- */
+:root {
+--white: #fff;
+--disco: #7d177d;
+--black: #000;
+--dusty-gray: #979797;
 }
 
-  /* ---- layout ---- */
-  .footer-languages {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    background-color: var(--lavender-magenta);
-    line-height: 1;
-  }
-  
-  .language-selector {
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    font-size: .75rem;
-    line-height: .75;
-    padding: .875rem;
-  }
-  
-  .language-link {
-    color: var(--white);
-    cursor: pointer;
-    text-transform: uppercase;
-    padding: .5rem;
-  }
-  
-  .language-link:hover {
-    text-decoration: underline;
-  }
-  /* ---- components ---- */
-  
+* {
+  font-family: 'Open Sans', sans-serif;
+}
 
-  
-  /* ---- section ---- */
-  
-  
+.site-header {
+  height: 3.375rem;
+  background-color: var(--disco);
+}
+/* ---- layout ---- */
+
+.footer-languages {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  background-color: var(--disco);
+  line-height: 1;
+}
+
+.language-selector {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  font-size: 1.125rem;
+  line-height: 1;
+  padding: .875rem;
+}
+
+.language-link {
+  color: var(--white);
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: .5rem;
+}
+
+.language-link:hover {
+  text-decoration: underline;
+}
+/* ---- components ---- */
+
+
+
+/* ---- section ---- */
+.category-nav,
+.category-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  line-height: 1;
+}
+
+.category-list {
+  padding: .625rem 0 1.75rem 0;
+}
+
+.category-list-item {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: .75rem;
+  line-height: 1;
+  padding: .25rem;
+  border-right: 1px solid var(--dusty-gray);
+}
+
+.category-list-item:last-child {
+  border: 0;
+}
+
+.category-link {
+  color: var(--black);
+  padding: .5rem 0 0 0;
+}
