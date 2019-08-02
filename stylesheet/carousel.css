@@ -6,13 +6,28 @@
   margin-bottom: 1.25rem;
   font-size: 1.7rem;
   font-weight: 600;
-  color: white;
+  color: black;
 }
 
 @media (min-width: 700px) {
   .carousel {
-    padding: 4rem 1rem;
-    border-radius: 1rem;
+    padding: 8rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 1.25rem;
+    font-size: 5rem;
+    font-weight: 600;
+    color: black;
+  }
+  .sale {
+    background-position: 2rem;
+  }  
+  .sale {
+    background-position: 2rem;
+  }  
+  .sale {
+    background-position: 2rem;
   }
 }
 
