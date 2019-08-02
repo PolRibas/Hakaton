@@ -111,18 +111,17 @@ label ul {
           transform: translate(-25%, -25%);
   opacity: 0;
   transition: .25s 0s ease-in-out;
-  background: yellow;
+
   padding: 0;
 }
 
 .principal-menu{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 2.25fr 2.25fr 2.25fr 2.25fr 1fr;
-  height: 80%;
-  list-style-type: none;
-  position: fixed;
-  bottom: -7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.7fr 1.7fr 1.7fr 1.7fr;
+    height: 84%;
+    list-style-type: none;
+    margin-top: 21px;
 }
 
 .main-category{
@@ -130,10 +129,19 @@ label ul {
     height: 100%;
     padding: 12%;
     align-items: center;
-    background: gray;
     border-width: 1px;
     border-style: solid;
     border-color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    justify-self: center;
+}
+
+.main-category div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
 
 #sale{
@@ -159,8 +167,53 @@ h1 {
 
 #sale{
     position: fixed;
-    bottom: 0%;
-    height: 10%;
+    bottom: -11%;
+    height: 11%;
     width: 100%;
     text-align: center;
+    padding: 2%;
+    margin: 0;
+    font-size: 2em;
+    color: white;
+    background: #ed87ed;
+}
+
+#outdoors{
+    background-image: url(../public/Rectangle.jpg);
+    background-size: cover;
+}
+
+#kitchen{
+    background-image: url(../public/Rectangle\ Copy\ 6.jpg);
+    background-size: cover;   
+}
+
+#decoration{
+    background-image: url(../public/Rectangle\ Copy.jpg);
+    background-size: cover;   
+}
+
+#bathroom{
+    background-image: url(../public/Rectangle\ Copy\ 4.jpg);
+    background-size: cover;   
+}
+
+#babies{
+    background-image: url(../public/Rectangle\ Copy\ 5.jpg);
+    background-size: cover;  
+}
+
+#electronics{
+    background-image: url(../public/Rectangle\ Copy\ 3.jpg);
+    background-size: cover;   
+}
+
+#storage{
+    background-image: url(../public/Organization.jpg);
+    background-size: cover;   
+}
+
+#furniture{
+    background-image: url(../public/Rectangle\ Copy\ 7.jpg);
+    background-size: cover;
 }
